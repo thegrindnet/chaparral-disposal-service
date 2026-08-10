@@ -7,6 +7,8 @@
   --lime: greenyellow;
   --muted: #5e6b67;
   --cream: #f3f6f1;
+  --blue-dark: darkblue;
+  --blue: blue;
   scroll-behavior: smooth;
 }
 body {

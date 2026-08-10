@@ -1,1 +1,71 @@
-.about{padding:110px 0;background:var(--green-dark);color:#fff}.about__grid{display:grid;grid-template-columns:1fr 1fr;gap:72px;align-items:center}.about__image{position:relative}.about__image img{width:100%;min-height:540px;object-fit:cover;border-radius:14px}.about__image span{position:absolute;right:-20px;bottom:28px;padding:18px 24px;background:var(--lime);color:var(--green-dark);font-weight:900}.about .section-title{color:#fff}.about .section-copy{color:#d7e3df}.about__statement{margin-top:34px;padding-top:28px;border-top:1px solid #ffffff2b;font-size:1.5rem;font-weight:900;text-transform:uppercase}.about__statement span{color:var(--lime)}@media(max-width:800px){.about{padding:80px 0}.about__grid{grid-template-columns:1fr;gap:45px}.about__image img{min-height:380px}.about__image span{right:0}}
+.about {
+  padding: 110px 0;
+  background: var(--blue-dark);
+  color: #fff;
+}
+.about__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 72px;
+  align-items: center;
+}
+.about__image {
+  position: relative;
+}
+.about__image img {
+  width: 100%;
+  min-height: 540px;
+  object-fit: cover;
+  border-radius: 14px;
+}
+.about__image span {
+  position: absolute;
+  right: -20px;
+  bottom: 28px;
+  padding: 18px 24px;
+  background: var(--lime);
+  color: var(--green-dark);
+  font-weight: 900;
+}
+
+.about__eyebrow {
+  font-family: Inter, Arial, sans-serif;
+  margin: 0 0 12px;
+  font-size: 0.78rem;
+  font-weight: 900;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: greenyellow;
+}
+.about .section-title {
+  color: #fff;
+}
+.about .section-copy {
+  color: #d7e3df;
+}
+.about__statement {
+  margin-top: 34px;
+  padding-top: 28px;
+  border-top: 1px solid #ffffff2b;
+  font-size: 1.5rem;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+.about__statement span {
+  color: var(--lime);
+}
+@media (max-width: 800px) {
+  .about {
+    padding: 80px 0;
+  }
+  .about__grid {
+    grid-template-columns: 1fr;
+    gap: 45px;
+  }
+  .about__image img {
+    min-height: 380px;
+  }
+  .about__image span {
+    right: 0;
+  }
+}

@@ -1,0 +1,1 @@
+import './TrustBar.css';export default function TrustBar(){return <section className="trust" aria-label="Our commitments"><div className="container trust__grid"><div><strong>Weekly</strong><span>Reliable pickup</span></div><div><strong>Local</strong><span>Chaparral based</span></div><div><strong>Fair</strong><span>Competitive rates</span></div></div></section>}

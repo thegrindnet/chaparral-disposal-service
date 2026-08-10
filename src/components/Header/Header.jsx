@@ -1,1 +1,29 @@
-import Navigation from '../Navigation/Navigation';import logo from '../../assets/images/chaparral-disposal-logo.webp';import {business} from '../../utils/constants';import './Header.css';export default function Header(){return <header className="header"><div className="header__bar"><div className="container header__bar-inner"><span>Proudly serving Chaparral & surrounding areas</span><a href={`tel:${business.phone}`}>Call {business.phoneDisplay}</a></div></div><div className="container header__main"><a href="#top" className="header__brand" aria-label="Chaparral Disposal Service home"><img src={logo} alt="Chaparral Disposal Service"/></a><Navigation/><a className="header__cta" href={`tel:${business.phone}`}>Request Service</a></div></header>}
+import Navigation from "../Navigation/Navigation";
+import logo from "../../assets/images/chaparral-disposal-logo.webp";
+import { business } from "../../utils/constants";
+import "./Header.css";
+export default function Header() {
+  return (
+    <header className="header">
+      <div className="header__bar">
+        <div className="container header__bar-inner">
+          <span>Proudly Serving Chaparral & Surrounding Areas</span>
+          <a href={`tel:${business.phone}`}>Call {business.phoneDisplay}</a>
+        </div>
+      </div>
+      <div className="container header__main">
+        <a
+          href="#top"
+          className="header__brand"
+          aria-label="Chaparral Disposal Service home"
+        >
+          <img src={logo} alt="Chaparral Disposal Service" />
+        </a>
+        <Navigation />
+        <a className="header__cta" href={`tel:${business.phone}`}>
+          Request Service
+        </a>
+      </div>
+    </header>
+  );
+}

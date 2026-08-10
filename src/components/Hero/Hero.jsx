@@ -1,4 +1,4 @@
-import truck from "../../assets/images/chaparral-disposal-truck-front.webp";
+import truck from "../../assets/images/chaparral-disposal-truck-front.png";
 import { business } from "../../utils/constants";
 import "./Hero.css";
 export default function Hero() {

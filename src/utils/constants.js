@@ -1,4 +1,4 @@
-import truckFront from "../assets/images/chaparral-disposal-truck-front.webp";
+import truckFront from "../assets/images/chaparral-disposal-truck-front.png";
 import truckSide from "../assets/images/chaparral-disposal-truck-side.webp";
 import truckModern from "../assets/images/chaparral-disposal-truck-modern.webp";
 import containers from "../assets/images/chaparral-disposal-containers.webp";

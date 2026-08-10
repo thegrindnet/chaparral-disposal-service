@@ -8,7 +8,7 @@
   --muted: #5e6b67;
   --cream: #f3f6f1;
   --blue-dark: darkblue;
-  --blue: blue;
+  --blue: rgb(5, 7, 114);
   scroll-behavior: smooth;
 }
 body {
@@ -76,7 +76,7 @@ a {
   color: #fff;
 }
 .button--dark {
-  background: var(--green-dark);
+  background: var(--blue-dark);
   color: #fff;
 }
 @media (max-width: 520px) {

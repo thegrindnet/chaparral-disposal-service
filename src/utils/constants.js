@@ -8,8 +8,7 @@ export const business = {
   email: "email@example.com",
   address: "549 N Rd, Chaparral, NM 88081",
   hours: "Monday–Friday, 8:00 AM–4:00 PM",
-  mapUrl:
-    "https://www.google.com/maps/search/?api=1&query=549+N+Rd+Chaparral+NM+88081",
+  mapUrl: "https://maps.app.goo.gl/M3KwZYkuew4jRwSbA",
 };
 export const navLinks = [
   { label: "Services", href: "#services" },

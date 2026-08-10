@@ -1,1 +1,27 @@
-{"name":"chaparral-disposal-service","private":true,"version":"1.0.0","type":"module","scripts":{"dev":"vite","build":"vite build","lint":"eslint .","preview":"vite preview"},"dependencies":{"@vitejs/plugin-react":"latest","vite":"latest","react":"latest","react-dom":"latest"},"devDependencies":{"eslint":"latest","@eslint/js":"latest","eslint-plugin-react-hooks":"latest","eslint-plugin-react-refresh":"latest","globals":"latest"}}
+{
+  "name": "chaparral-disposal-service",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --open",
+    "build": "vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview",
+    "predeploy": "npm run build"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "vite": "latest"
+  },
+  "devDependencies": {
+    "@eslint/js": "latest",
+    "eslint": "latest",
+    "eslint-plugin-react-hooks": "latest",
+    "eslint-plugin-react-refresh": "latest",
+    "gh-pages": "^6.3.0",
+    "globals": "latest"
+  }
+}

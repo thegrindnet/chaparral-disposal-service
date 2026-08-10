@@ -7,7 +7,7 @@ export const business = {
   phone: "+15758240887",
   email: "chaparraldisposal@yahoo.com",
   address: "549 North Rd. \nChaparral, NM 88081",
-  hours: "Monday – Friday -- 8:00 AM – 4:00 PM",
+  hours: "Monday – Friday \n8:00 AM – 4:00 PM",
   mapUrl: "https://maps.app.goo.gl/M3KwZYkuew4jRwSbA",
 };
 export const navLinks = [

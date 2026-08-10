@@ -29,7 +29,6 @@ export default function Contact() {
           <div>
             <span>Email</span>
             <a href={`mailto:${business.email}`}>{business.email}</a>
-            <small>Email address needs confirmation</small>
           </div>
           <a
             className="contact__directions"

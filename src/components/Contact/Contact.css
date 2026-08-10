@@ -22,6 +22,7 @@
 .contact__details div {
   padding: 17px 0;
   border-bottom: 1px solid #dce4df;
+  white-space: pre-line;
 }
 .contact__details span {
   display: block;
@@ -47,6 +48,7 @@
 }
 .contact__directions {
   display: inline-block;
+  padding-top: 15px;
   margin-top: 24px;
   color: var(--green) !important;
 }

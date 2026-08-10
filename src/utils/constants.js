@@ -5,9 +5,9 @@ import containers from "../assets/images/chaparral-disposal-containers.webp";
 export const business = {
   phoneDisplay: "(575) 824-0887",
   phone: "+15758240887",
-  email: "email@example.com",
-  address: "549 N Rd, Chaparral, NM 88081",
-  hours: "Monday–Friday, 8:00 AM–4:00 PM",
+  email: "chaparraldisposal@yahoo.com",
+  address: "549 North Rd., \nChaparral, NM 88081",
+  hours: "Monday – Friday -- 8:00 AM – 4:00 PM",
   mapUrl: "https://maps.app.goo.gl/M3KwZYkuew4jRwSbA",
 };
 export const navLinks = [
@@ -82,5 +82,10 @@ export const reviews = [
     name: "Teresa Medina",
     quote:
       "Chaparral service and their staff are very nice, and they do a great job.",
+  },
+  {
+    name: "The Grind Internet Shop",
+    quote:
+      "Thank you Gaytan Family and staff for the excellent service you have provided our business over the years. You have great prices and your staff are very friendly. We highly recommend Chaparral Disposal Service.",
   },
 ];

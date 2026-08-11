@@ -9,9 +9,11 @@ export const business = {
   address: "549 North Rd. \nChaparral, NM 88081",
   hours: "Monday – Friday \n8:00 AM – 4:00 PM",
   mapUrl: "https://maps.app.goo.gl/M3KwZYkuew4jRwSbA",
+  paymentUrl: "",
 };
 export const navLinks = [
   { label: "Services", href: "#services" },
+  { label: "Pay My Bill", href: "#payment" },
   { label: "About", href: "#about" },
   { label: "Fleet", href: "#gallery" },
   { label: "Reviews", href: "#reviews" },

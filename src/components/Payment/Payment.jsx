@@ -36,9 +36,8 @@ export default function Payment() {
             ) : (
               <>
                 <button
-                  className="button button--primary payment-card__button payment-card__button--disabled"
+                  className="button button--primary payment-card__button "
                   type="button"
-                  disabled
                 >
                   Make a Payment
                 </button>
@@ -56,15 +55,13 @@ export default function Payment() {
               <p>Contact us to authorize convenient automatic payments.</p>
             </div>
             <a
-              className="button payment-card__button payment-card__button--contact"
-              href={`tel:${business.phone}`}
+              className="button button--primary payment-card__button"
+              href={business.paymentAutoUrl}
+              target="_blank"
+              rel="noreferrer"
             >
               Enroll in AutoPay
             </a>
-            <p className="payment-card__notice">
-              Because customer bills may vary, AutoPay enrollment is completed
-              directly with our office.
-            </p>
           </article>
         </div>
       </div>
